@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "56082779170",
+    "firebase_url": "https://refined-center-156105.firebaseio.com",
+    "project_id": "refined-center-156105",
+    "storage_bucket": "refined-center-156105.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56082779170:android:0802a12ee1634582768e7b",
+        "android_client_info": {
+          "package_name": "com.wb.largestfans"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "56082779170-o4lus22c31brfaprn42kmnkaj8vfh6bo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvrI-IE_Um2l0-W1CS0fRUJewtUITh2nI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "56082779170-o4lus22c31brfaprn42kmnkaj8vfh6bo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

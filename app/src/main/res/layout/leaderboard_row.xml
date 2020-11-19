@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout android:orientation="horizontal" android:id="@+id/tableLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <TableRow android:orientation="horizontal" android:id="@+id/rowRank" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:textColor="@color/mWhiteColor" android:gravity="center_horizontal" android:id="@+id/tvRankValue" android:layout_width="90.0dip" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" />
+            <View android:layout_width="20.0dip" android:layout_height="fill_parent" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/mWhiteColor" android:gravity="center_horizontal" android:id="@+id/tvUserNameValue" android:layout_width="135.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+            <View android:layout_width="20.0dip" android:layout_height="fill_parent" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/mWhiteColor" android:gravity="center_horizontal" android:id="@+id/tvScoreValue" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>

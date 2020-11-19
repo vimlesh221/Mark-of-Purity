@@ -1,0 +1,28 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:appandroid="http://schemas.android.com/apk/res-auto"
+    xmlns:compat="http://schemas.android.com/apk/res-auto" >
+
+
+        <item
+            android:id="@+id/menu_one"
+            android:orderInCategory="1"
+            compat:showAsAction="always"
+            android:visible="false"
+            android:title="LEADER BOARD"/>
+
+        <item
+            android:id="@+id/menu_two"
+            android:orderInCategory="2"
+            compat:showAsAction="always"
+            android:title="GALLERY"/>
+
+        <item
+            android:id="@+id/menu_three"
+            android:orderInCategory="3"
+            compat:showAsAction="always"
+            android:title="LOG OUT"/>
+
+
+
+</menu>

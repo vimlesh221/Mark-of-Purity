@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#ffef7b86</color>
+    <color name="colorPrimary">#ffef7b86</color>
+    <color name="colorPrimaryDark">#ff71111a</color>
+    <color name="color_brown">#ffa52a2a</color>
+    <color name="color_gray">#ff808080</color>
+    <color name="color_line">#ffef7b86</color>
+    <color name="mEditShapeColor">#ff71111a</color>
+    <color name="mInputTextColor">#ffef7b86</color>
+  <!--  <color name="mYellowTextColor">#feebb3</color>-->
+    <color name="mWhiteColor">#ffffff</color>
+   <color name="mYellowTextColor">#F9CF45</color>-->
+
+
+</resources>

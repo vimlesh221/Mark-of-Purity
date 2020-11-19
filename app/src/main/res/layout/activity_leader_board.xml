@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/relLeaderBoard" android:background="@mipmap/background" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@+id/toolbarLayout" android:visibility="visible" layout="@layout/toolbar_new" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:layout_below="@+id/toolbarLayout" android:layout_centerHorizontal="true">
+        <TableLayout android:orientation="horizontal" android:id="@+id/tableLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_centerHorizontal="true">
+            <TableRow android:orientation="horizontal" android:id="@+id/rowTitle" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="16.0sp" android:textColor="@color/mYellowTextColor" android:gravity="center_horizontal" android:id="@+id/tvRank" android:background="@drawable/edittextshapeleader" android:layout_width="90.0dip" android:layout_height="wrap_content" android:text="Rank" />
+                <View android:layout_width="20.0dip" android:layout_height="fill_parent" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/mYellowTextColor" android:gravity="center_horizontal" android:id="@+id/tvUserName" android:background="@drawable/edittextshapeleader" android:layout_width="135.0dip" android:layout_height="wrap_content" android:text="Shop Name" />
+                <View android:layout_width="20.0dip" android:layout_height="fill_parent" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/mYellowTextColor" android:gravity="center_horizontal" android:id="@+id/tvScore" android:background="@drawable/edittextshapeleader" android:layout_width="100.0dip" android:layout_height="wrap_content" android:text="Target" />
+            </TableRow>
+        </TableLayout>
+        <android.support.v7.widget.RecyclerView android:id="@+id/recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@+id/tableLayout" />
+    </RelativeLayout>
+</RelativeLayout>

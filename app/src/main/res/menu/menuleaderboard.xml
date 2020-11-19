@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.menuexample.MenuExampleActivity" >
+
+
+    <item
+        android:id="@+id/menu_one"
+        android:orderInCategory="1"
+        android:showAsAction="never"
+        android:title="PROFILE"/>
+
+    <item
+        android:id="@+id/menu_two"
+        android:orderInCategory="2"
+        android:showAsAction="never"
+        android:title="GALLERY"/>
+
+    <item
+        android:id="@+id/menu_three"
+        android:orderInCategory="3"
+        android:showAsAction="never"
+        android:title="LOG OUT"/>
+
+
+
+</menu>

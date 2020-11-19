@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wb.largestfans">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+
+    <!-- <uses-feature android:name="android.hardware.camera2.full" />-->
+    <!--<uses-feature android:name="android.hardware.location.gps" />-->
+
+
+
+    <application
+        android:name="com.wb.largestfans.application.RoyalStagApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+
+        android:testOnly="false"
+        android:theme="@style/AppTheme">
+
+        <!-- Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <activity
+            android:name="com.wb.largestfans.notification.NotificationActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name="com.wb.largestfans.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.wb.largestfans.SignUpActivity"
+            android:screenOrientation="portrait" /> <!-- This is a standard Daydream Activity. -->
+        <activity
+            android:name="com.wb.largestfans.LoginActivity"
+            android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name="com.wb.largestfans.ForgotPaswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wb.largestfans.DashboardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wb.largestfans.LeaderBoardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wb.largestfans.GalleryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.wb.largestfans.FullImageActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>
